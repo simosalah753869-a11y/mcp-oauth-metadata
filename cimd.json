@@ -1,0 +1,21 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/simosalah753869-a11y/mcp-oauth-metadata@main/cimd.json",
+  "client_name": "Antigravity ElevenLabs MCP",
+  "client_uri": "https://elevenlabs.io",
+  "redirect_uris": [
+    "http://localhost:3334/oauth/callback",
+    "http://127.0.0.1:3334/oauth/callback",
+    "http://localhost:15847/oauth/callback",
+    "http://127.0.0.1:15847/oauth/callback",
+    "http://localhost:19518/oauth/callback",
+    "http://127.0.0.1:19518/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
